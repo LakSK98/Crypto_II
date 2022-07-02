@@ -29,7 +29,7 @@ namespace Crypto_II.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(20,10)");
 
                     b.Property<long>("TimeStamp")
                         .HasColumnType("bigint");
